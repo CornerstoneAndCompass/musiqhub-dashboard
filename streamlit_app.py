@@ -297,8 +297,8 @@ elif selected_tab == "Event Profit Summary":
     st.subheader("Event Profit Summary Table")
     st.dataframe(event_summary_df)
 
-elif selected_tab == "Main":
-		st.title("MusiqHub Dashboard")
+elif selected_tab == "About":
+		st.title("About MusiqHub Dashboard")
 		st.markdown("""
 		
 		
