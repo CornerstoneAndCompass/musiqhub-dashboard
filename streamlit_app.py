@@ -297,21 +297,12 @@ elif selected_tab == "Event Profit Summary":
     st.subheader("Event Profit Summary Table")
     st.dataframe(event_summary_df)
 
-elif selected_tab == "About":
-		st.title("About MusiqHub Dashboard")
+elif selected_tab == "Main":
+		st.title("MusiqHub Dashboard")
 		st.markdown("""
-		This dashboard provides insights into the MusiqHub franchise operations, including student enrolments, revenue, and profit summaries.
 		
-		**Features:**
-		- Filter data by year, term, and franchisee
-		- View detailed summaries of student counts, lesson numbers, and financial metrics
-		- Event profit summaries with detailed breakdowns
 		
-		**Data Sources:**
-		- CSV uploads for custom data
-		- Google Drive integration for Excel files
 		
-		**Developed by:** Your Name
 		""")
 		# Read both Excel files (first sheet by default)
 		df_feb = pd.read_excel("source/2025-02.xlsx")
